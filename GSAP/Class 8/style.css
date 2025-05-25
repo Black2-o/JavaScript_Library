@@ -1,0 +1,219 @@
+@font-face {
+    font-family: NeueMachina;
+    src: url(NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory, sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2.5rem;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+nav h1{
+    font-size: 2.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+
+nav h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 0.8rem 2rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.center{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    padding: 3rem 2.5rem;
+}
+
+.center-part-1{
+    height: 100%;
+    width: 45%;
+    padding: 4rem 0;
+}
+.center-part-2{
+    height: 100%;
+    width: 55%;
+}
+
+.center-part-1 h1{                                                                                                                                  
+    font-size: 4rem;
+    line-height: 1.2;
+    font-family: NeueMachina;
+}
+.center-part-1 p{
+    font-size: 1.2rem;
+    margin: 3rem 0;
+    line-height: 1.5;
+    width: 90%;
+}
+.center-part-1 button{
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.company{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+
+.section2 .services{
+    margin-top: 3rem;
+    /* background-color: red; */
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    font-family: NeueMachina;
+}
+.services p{
+    font-size: 1rem;
+    width: 40%;
+}
+
+.container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 2.5rem;
+    gap: 6rem;
+}
+
+.elem{
+    flex-shrink: 0;
+    width: 47%;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    box-shadow: 0 15px 0px black;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 243, 243);
+    gap: 2rem;
+}
+.elem-part1{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part1 h2{
+    font-size: 2.5rem;
+    font-family: NeueMachina;
+    font-weight: 500;
+    background-color: #9AE975;
+    border-radius: 1rem;
+    padding: 10px;
+    width: fit-content  ;
+}
+.elem-part1 h4{
+    font-size: 2rem;
+    display: flex;
+    font-weight: 900;
+    align-items: center;
+    gap: 1rem;
+}
+.elem-part1 h4 i{
+    padding: 0.5rem;
+    background-color: #000;
+    color: #9AE975;
+    border-radius: 50%;
+}
+
+.elem-part2 img{
+    width: 100%;
+    height: 100%;
+}
+.elem-green{
+    background-color: #9AE975;
+}
+.elem-green h2, .elem-black h2{
+    background-color: #fff;
+}
+.elem-black{
+    background-color: #000;
+}
+.elem-black h4{
+    color: #fff;
+}
+.elem-black h4 i{
+    background-color: #fff;
+    color: #000;
+}
+.elem-part2{
+    width: 40%;
+}
+.elem-part2 img{
+    max-height: 13rem;
+}
